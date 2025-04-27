@@ -1,0 +1,30 @@
+<!DOCTYPE html >
+<html lang="pl" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Strony Głównej</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="relative h-screen bg-blue-500">
+<!-- Miejsce na logo -->
+<div class="absolute p-7 top-4 left-4 w-64 h-32 flex items-center justify-center">
+    <img th:src="@{images/image.png}" alt="sii_logo">
+</div>
+
+<!-- Info o udanym logowaniu -->
+<div class="flex items-center justify-center h-full">
+    <div class="border border-gray-500 bg-white bg-opacity-50 p-8 rounded-lg">
+        <h1 class="text-gray-700 text-xl font-semibold text-center">
+            Zalogowanie zakończone pomyślnie
+        </h1>
+        <hr class="my-4 border-gray-500">
+        <form th:action="@{/logout}" method="post">
+            <button type="submit" class="w-full py-2 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition">
+                Wyloguj
+            </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
