@@ -24,13 +24,8 @@ A module presenting a fully customized login form replacing the default Spring S
 - Form-based authentication.
 - Simple user roles and access control.
 
-**How to run:**
-```bash
-cd CustomLoginForm
-./mvnw spring-boot:run
-```
 
-Access the application at: `http://localhost:8080/login`
+Access the application at: `http://localhost:8080
 
 ---
 
@@ -42,12 +37,6 @@ A module showcasing Spring Security’s default security setup.
 - Default generated login page.
 - Basic username/password authentication.
 - Predefined user with roles.
-
-**How to run:**
-```bash
-cd DefaultSecurityConfig
-./mvnw spring-boot:run
-```
 
 Access the application at: `http://localhost:8081
 
@@ -63,6 +52,8 @@ A module demonstrating OAuth2 authentication integration with github.
 
 **Features:**
 - Login via OAuth2 with github.
+
+Access the application at: `http://localhost:8082
 
 **Note:** Before running, configure your OAuth2 credentials in `application.yml` or `application.properties`.
 
