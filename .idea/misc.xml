@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SecurityOauth/pom.xml" />
         <option value="$PROJECT_DIR$/DefaultSecurityConfig/pom.xml" />
         <option value="$PROJECT_DIR$/CustomLoginForm/pom.xml" />
+        <option value="$PROJECT_DIR$/JWTExample/pom.xml" />
       </list>
     </option>
   </component>
