@@ -17,6 +17,7 @@
     <module>SecurityOauth</module>
     <module>CustomLoginForm</module>
     <module>DefaultSecurityConfig</module>
+    <module>JWTExample</module>
   </modules>
 
   <dependencies>

@@ -3,11 +3,12 @@
 # Spring Boot 3 - Security Modules
 ## Overview
 
-This project demonstrates three different approaches to securing a Spring Boot 3 application using Spring Security:
+This project demonstrates four different approaches to securing a Spring Boot 3 application using Spring Security:
 
 - **CustomLoginForm** - A custom-built login page with Spring Security integration.
 - **DefaultSecurityConfig** - Standard default security configuration (out-of-the-box).
 - **SecurityOauth** - Integration OAuth2 - Github
+- **JWTExample** - Integration with JWT tokens
 
 Each module is structured to showcase a specific security mechanism.
 
@@ -68,6 +69,16 @@ spring:
             client-id: your-client-id
             client-secret: your-client-secret
 ```
+
+### 4. JWTExample
+**Description:**
+A module demonstrating JWT token authentication.
+
+**Features:**
+- Request for token with credentials.
+- Get test data with token.
+
+Access the application at: `http://localhost:8084
 
 ---
 
